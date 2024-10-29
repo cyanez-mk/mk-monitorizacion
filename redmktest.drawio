@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" version="24.8.3">
   <diagram name="Network" id="prometheus">
-    <mxGraphModel dx="1434" dy="796" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1834" dy="796" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <object label="" id="0">
           <mxCell />
@@ -16,7 +16,7 @@
         </object>
         <object label="FW&lt;br&gt;&lt;div&gt;IP: &lt;font color=&quot;#ff0000&quot;&gt;192.168.10.2&lt;/font&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;SNMP: &lt;font color=&quot;#ff0000&quot;&gt;prometheus&lt;/font&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Fortigate&lt;br&gt;&lt;/div&gt;" id="192.168.10.2">
           <mxCell style="shape=mxgraph.cisco.security.firewall;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" parent="1" vertex="1">
-            <mxGeometry x="214.64099216710184" y="310" width="28.20496083550914" height="67" as="geometry" />
+            <mxGeometry x="123.64099216710184" y="327" width="28.20496083550914" height="67" as="geometry" />
           </mxCell>
         </object>
         <object label="" id="from_192.168.10.232:port1_to_192.168.10.59:eth0">
@@ -26,16 +26,16 @@
         </object>
         <object label="&lt;div&gt;SW&lt;/div&gt;&lt;div&gt;IP: 192.168.10.232&lt;/div&gt;&lt;div&gt;SNMP: &lt;font color=&quot;#ff0000&quot;&gt;prometheus&lt;/font&gt;&lt;/div&gt;&lt;div&gt;Fortiswitch&lt;/div&gt;" id="192.168.10.232">
           <mxCell style="shape=mxgraph.cisco.switches.workgroup_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" parent="1" vertex="1">
-            <mxGeometry x="455.8420365535248" y="318.5" width="98.23107049608356" height="50" as="geometry" />
+            <mxGeometry x="364.8420365535248" y="335.5" width="98.23107049608356" height="50" as="geometry" />
           </mxCell>
         </object>
         <object label="&lt;div&gt;AP wifi&lt;/div&gt;&lt;div&gt;IP: 192.168.10.59&lt;/div&gt;&lt;div&gt;&lt;strike&gt;SNMP: &lt;font color=&quot;#ff0000&quot;&gt;??&lt;/font&gt;&lt;/strike&gt;&lt;font color=&quot;#ff0000&quot;&gt; API&lt;/font&gt;&lt;strike&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/strike&gt;&lt;/div&gt;&lt;div&gt;Mist&lt;br&gt;&lt;/div&gt;" id="192.168.10.59">
           <mxCell style="shape=mxgraph.cisco.wireless.wireless_transport;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" parent="1" vertex="1">
-            <mxGeometry x="689.2624020887729" y="316.5" width="74.88903394255875" height="54" as="geometry" />
+            <mxGeometry x="598.2624020887729" y="333.5" width="74.88903394255875" height="54" as="geometry" />
           </mxCell>
         </object>
         <mxCell id="moGrjSGmdV1LNA5coAdy-7" value="&lt;div&gt;SW USW-Pro-24-PoE&lt;/div&gt;&lt;div&gt;Ubiquiti&lt;/div&gt;" style="shape=mxgraph.cisco.switches.workgroup_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#99CCFF;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="303.1462140992167" y="450" width="98.23107049608356" height="50" as="geometry" />
+          <mxGeometry x="212.1462140992167" y="467" width="98.23107049608356" height="50" as="geometry" />
         </mxCell>
         <mxCell id="moGrjSGmdV1LNA5coAdy-8" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;endArrow=none;endFill=0;" parent="1" source="moGrjSGmdV1LNA5coAdy-7" target="192.168.10.232" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -44,20 +44,20 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="moGrjSGmdV1LNA5coAdy-10" value="P24" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="407.21279373368145" y="310" width="58.35509138381201" height="30" as="geometry" />
+          <mxGeometry x="316.21279373368145" y="327" width="58.35509138381201" height="30" as="geometry" />
         </mxCell>
         <mxCell id="moGrjSGmdV1LNA5coAdy-11" value="P1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="543.3746736292428" y="310" width="58.35509138381201" height="30" as="geometry" />
+          <mxGeometry x="452.3746736292428" y="327" width="58.35509138381201" height="30" as="geometry" />
         </mxCell>
         <mxCell id="moGrjSGmdV1LNA5coAdy-12" value="P10" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="378.03524804177545" y="425" width="58.35509138381201" height="30" as="geometry" />
+          <mxGeometry x="287.03524804177545" y="442" width="58.35509138381201" height="30" as="geometry" />
         </mxCell>
         <mxCell id="moGrjSGmdV1LNA5coAdy-13" value="Eth0" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="639.6605744125327" y="310" width="58.35509138381201" height="30" as="geometry" />
+          <mxGeometry x="548.6605744125327" y="327" width="58.35509138381201" height="30" as="geometry" />
         </mxCell>
         <object label="&lt;div&gt;Prometheus&lt;/div&gt;&lt;div&gt;IP: 192.168.10.42&lt;br&gt;&lt;/div&gt;" id="moGrjSGmdV1LNA5coAdy-14">
           <mxCell style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.virtual_machine;" parent="1" vertex="1">
-            <mxGeometry x="100.00263707571801" y="190" width="48.62924281984334" height="48.62924281984334" as="geometry" />
+            <mxGeometry x="9.002637075718013" y="207" width="48.62924281984334" height="48.62924281984334" as="geometry" />
           </mxCell>
         </object>
       </root>
