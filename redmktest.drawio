@@ -1,9 +1,59 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" version="24.8.3">
   <diagram name="Páxina-1" id="46-kKTwJqvA8Rr3NMFjd">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="796" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="moGrjSGmdV1LNA5coAdy-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="moGrjSGmdV1LNA5coAdy-14" target="moGrjSGmdV1LNA5coAdy-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="moGrjSGmdV1LNA5coAdy-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" source="moGrjSGmdV1LNA5coAdy-3" target="moGrjSGmdV1LNA5coAdy-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <object label="FW&lt;br&gt;&lt;div&gt;IP: &lt;font color=&quot;#ff0000&quot;&gt;192.168.10.2&lt;/font&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;SNMP: &lt;font color=&quot;#ff0000&quot;&gt;prometheus&lt;/font&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Fortigate&lt;br&gt;&lt;/div&gt;" id="moGrjSGmdV1LNA5coAdy-3">
+          <mxCell style="shape=mxgraph.cisco.security.firewall;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+            <mxGeometry x="214.64099216710184" y="310" width="28.20496083550914" height="67" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="moGrjSGmdV1LNA5coAdy-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;exitX=0.98;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="moGrjSGmdV1LNA5coAdy-5" target="moGrjSGmdV1LNA5coAdy-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <object label="&lt;div&gt;SW&lt;/div&gt;&lt;div&gt;IP: 192.168.10.232&lt;/div&gt;&lt;div&gt;SNMP: &lt;font color=&quot;#ff0000&quot;&gt;prometheus&lt;/font&gt;&lt;/div&gt;&lt;div&gt;Fortiswitch&lt;/div&gt;" id="moGrjSGmdV1LNA5coAdy-5">
+          <mxCell style="shape=mxgraph.cisco.switches.workgroup_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+            <mxGeometry x="455.8420365535248" y="318.5" width="98.23107049608356" height="50" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="&lt;div&gt;AP wifi&lt;/div&gt;&lt;div&gt;IP: 192.168.10.59&lt;/div&gt;&lt;div&gt;&lt;strike&gt;SNMP: &lt;font color=&quot;#ff0000&quot;&gt;??&lt;/font&gt;&lt;/strike&gt;&lt;font color=&quot;#ff0000&quot;&gt; API&lt;/font&gt;&lt;strike&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/strike&gt;&lt;/div&gt;&lt;div&gt;Mist&lt;br&gt;&lt;/div&gt;" id="moGrjSGmdV1LNA5coAdy-6">
+          <mxCell style="shape=mxgraph.cisco.wireless.wireless_transport;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+            <mxGeometry x="689.2624020887729" y="316.5" width="74.88903394255875" height="54" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="moGrjSGmdV1LNA5coAdy-7" value="&lt;div&gt;SW USW-Pro-24-PoE&lt;/div&gt;&lt;div&gt;Ubiquiti&lt;/div&gt;" style="shape=mxgraph.cisco.switches.workgroup_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#99CCFF;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="303.1462140992167" y="450" width="98.23107049608356" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="moGrjSGmdV1LNA5coAdy-8" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;endArrow=none;endFill=0;" edge="1" parent="1" source="moGrjSGmdV1LNA5coAdy-7" target="moGrjSGmdV1LNA5coAdy-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="moGrjSGmdV1LNA5coAdy-9" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;endArrow=none;endFill=0;" edge="1" parent="1" source="moGrjSGmdV1LNA5coAdy-7" target="moGrjSGmdV1LNA5coAdy-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="moGrjSGmdV1LNA5coAdy-10" value="P24" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="407.21279373368145" y="310" width="58.35509138381201" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="moGrjSGmdV1LNA5coAdy-11" value="P1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="543.3746736292428" y="310" width="58.35509138381201" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="moGrjSGmdV1LNA5coAdy-12" value="P10" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="378.03524804177545" y="425" width="58.35509138381201" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="moGrjSGmdV1LNA5coAdy-13" value="Eth0" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="639.6605744125327" y="310" width="58.35509138381201" height="30" as="geometry" />
+        </mxCell>
+        <object label="&lt;div&gt;Prometheus&lt;/div&gt;&lt;div&gt;IP: 192.168.10.42&lt;br&gt;&lt;/div&gt;" id="moGrjSGmdV1LNA5coAdy-14">
+          <mxCell style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.virtual_machine;" vertex="1" parent="1">
+            <mxGeometry x="100.00263707571801" y="190" width="48.62924281984334" height="48.62924281984334" as="geometry" />
+          </mxCell>
+        </object>
       </root>
     </mxGraphModel>
   </diagram>
